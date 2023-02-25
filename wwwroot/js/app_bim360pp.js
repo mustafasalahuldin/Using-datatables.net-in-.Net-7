@@ -1,0 +1,2 @@
+var app_bim360pp;(()=>{var r={156:(r,p)=>{"use strict";p.Z=function(){$(document).ready((function(){$("#example").DataTable()}))}},22:(r,p,t)=>{var e=t(156).Z;r.exports=e}},p={},t=function t(e){var a=p[e];if(void 0!==a)return a.exports;var o=p[e]={exports:{}};return r[e](o,o.exports,t),o.exports}(22);app_bim360pp=t})();
+//# sourceMappingURL=app_bim360pp.js.map
