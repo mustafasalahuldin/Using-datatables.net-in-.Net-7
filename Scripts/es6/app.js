@@ -1,9 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// this one is not working
+require("datatables.net-bs4");
+//import 'datatables.net-fixedcolumns-bs4';
+require("datatables.net-fixedheader-bs4");
+require("datatables.net-responsive-bs4");
+// this one is not working!
 var app = /** @class */ (function () {
     function app() {
-        $(document).ready(function () {
+        $(function () {
+            $.noConflict();
             $('#example').DataTable();
         });
     }

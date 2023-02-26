@@ -1,9 +1,14 @@
-﻿import DataTables from 'datatables.net';
+﻿import 'datatables.net-bs4';
+//import 'datatables.net-fixedcolumns-bs4';
+import 'datatables.net-fixedheader-bs4';
+import 'datatables.net-responsive-bs4';
+
 // this one is not working!
 export default class app {
 
     constructor() {
-        $(document).ready(() => {
+        $(() => {
+            $.noConflict();
             $('#example').DataTable();
         });
     }
